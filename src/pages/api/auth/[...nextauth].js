@@ -15,6 +15,7 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
+  secret: "PLACE-HERE-ANY-STRING",
 }
 
 export default NextAuth(authOptions);
